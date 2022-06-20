@@ -1,0 +1,33 @@
+{
+	"OT" : {
+		"Grouping_Names" : ["The Pentateuch", "The Historical Books", "The Wisdom Books",
+							"The Prophetic Books"],
+
+		"Grouping" : [["Genesis", "Exodus", "Leviticus", "Numbers", "Deuteronomy"], 
+					  ["Joshua", "Judges", 
+					   "Ruth", "I Samuel", "II Samuel", "I Kings", "II Kings",
+            		   "I Chronicles", "II Chronicles", "Ezra", "Nehemiah", "Tobit", "Judith", "Esther",
+            		   "1 Maccabees", "2 Maccabees"], 
+					  ["Job", "Psalms", "Proverbs", "Ecclesiastes", "Song of Songs", "Wisdom", "Sirach"], 
+					  ["Isaiah", "Jeremiah", "Lamentations", "Baruch", "Ezekiel", "Daniel", "Hosea", "Joel", "Amos", "Obadiah", "Jonah",
+          			   "Micah", "Nahum", "Habakkuk", "Zephaniah", "Haggai", "Zechariah", "Malachi"]]
+	},
+
+	"NT" : {
+		"Books" : ["The Gospel according to Matthew", "The Gospel according to Mark", 
+				   "The Gospel according to Luke", "The Gospel according to John",
+				   "Acts of the Apostles", "Romans", "1 Corinthians", "2 Corinthians", "Galatians",
+				   "Ephesians", "Philippians", "Colossians", "1 Thessalonians", "2 Thessalonians",
+				   "1 Timothy", "2 Timothy", "Titus", "Philemon", "Hebrews", "James", "1 Peter", 
+				   "1 John", "2 Peter", "2 John", "3 John", "Jude", "Revelation"],
+
+		"Grouping_Names" : ["The Gospels", "Historical Book (Acts of the Apostles)",
+							"Pauline Epistles", "General Epistles", "Antilegomena"],
+
+		"Grouping" : [{"name" : "The Gospels", "range" : 3},
+					  {"name" : "Historical Book (Acts of the Apostles)", "range" : 4},
+					  {"name" : "Pauline Epistles", "range" : 18},
+					  {"name" : "General Epistles", "range" : 21},
+					  {"name" : "Antilegomena", "range" : 26}]
+	}
+}
